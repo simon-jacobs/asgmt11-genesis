@@ -1,0 +1,38 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 700;
+
+    &:hover {
+        color: #3498db;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1109px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlight {
+    color: #4A4FF2;
+}
+

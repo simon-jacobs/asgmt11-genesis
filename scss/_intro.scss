@@ -1,0 +1,32 @@
+.intro {
+    margin: 0 0 144px 0;
+    .flex-container {
+        gap: 190px;
+        align-items: flex-end;
+    }
+
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        max-width: 635px;
+        font-size: 20px;
+
+        h1, h5 {
+            margin: 0;
+        }
+    }
+
+    .quote {
+        flex-shrink: 0;
+        opacity: 0.5;
+
+        &::before {
+            content: '';
+            width: 30px;
+            height: 2px;
+            background-color: #111;
+            display: block;
+        }
+    }
+}

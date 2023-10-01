@@ -1,0 +1,14 @@
+.footer {
+    margin:100px 0 48px 0;
+    &-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-left: auto;
+        padding: 0 95px;
+    }
+    
+    &-social-icons {
+        display: flex;
+    }
+}

@@ -1,0 +1,30 @@
+.service {
+    margin: 0 0 101px;
+    
+    .title {
+        max-width: 635px;
+        font-size: 28px;
+        line-height: 38px;
+
+        h4 {
+            margin: 0;
+        }
+    }
+
+    .flex-container {
+        gap: 94px;
+    }
+
+    &-links {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.6;
+        row-gap: 10px;
+        
+        li {
+            flex-basis: 50%;
+        }
+    }
+}

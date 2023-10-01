@@ -1,0 +1,45 @@
+.contact {
+    margin: 14px 0 120px;
+
+    .flex-container {
+        gap: 160px;
+        align-items: flex-start;
+    }
+
+    &-intro {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+
+        h1, p {
+            margin: 0;
+        }
+    }
+
+    form {
+        min-width: 475px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 46px;
+        
+        input {
+            border: none;
+            border-bottom: 1px solid #979797;
+            padding-bottom: 16px;
+        }
+    
+        button {
+            align-self: flex-start;
+            background: rgb(74,79,242,1);
+            color: #fff;
+            padding: 14px 35px 16px;
+            border: none;
+            cursor: pointer;
+            transition: all 250ms ease;
+
+            &:hover {
+                background: rgb(74,79,242,0.8);
+            }
+        }
+    }
+}
